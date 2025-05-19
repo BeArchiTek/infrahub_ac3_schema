@@ -25,7 +25,7 @@ query topology_info {
                   }
                 }
               }
-              ... on DcimEndpoint {
+              ... on InterfacePhysical {
                 connector {
                   node {
                     id

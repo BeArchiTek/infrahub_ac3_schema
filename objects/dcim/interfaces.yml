@@ -10,7 +10,7 @@ spec:
       role: core
       status: active
       device: prg1-core1
-      ip_addresses: ["10.0.0.1/30"]
+      ip_addresses: ["10.0.0.0/31"]
     - name: Management0
       description: Mgmt Interface
       mtu: 1500
@@ -24,7 +24,7 @@ spec:
       role: core
       status: active
       device: prg1-core2
-      ip_addresses: ["10.0.0.2/30"]
+      ip_addresses: ["10.0.0.1/31"]
     - name: Management0
       description: Mgmt Interface
       mtu: 1500

@@ -7,5 +7,5 @@ spec:
     - status: connected
       cable_type: cat6a
       connected_endpoints:
-        - [prg1-core1, eth1]
-        - [prg1-core2, eth1]
+        - [prg1-core1, Ethernet1]
+        - [prg1-core2, Ethernet1]
